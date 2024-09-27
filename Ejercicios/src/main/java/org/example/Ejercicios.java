@@ -22,15 +22,22 @@ public class Ejercicios {
         int num2 = 0;
 
         while (num1==num2){
-            System.out.println("Introduce un número...");
-            num1 = entrada.nextInt();
-
-            System.out.println("Introduce otro número...");
-            num2 = entrada.nextInt();
-
-            System.out.println("ERROR. LOS NUMEROS SON IGUALES");
 
 
+
+
+                System.out.println("Introduce un número...");
+                num1 = entrada.nextInt();
+
+                System.out.println("Introduce otro número...");
+                num2 = entrada.nextInt();
+            if (num1 == num2) {
+
+                System.out.println("ERROR. LOS NUMEROS SON IGUALES");
+
+
+
+                }
 
         }
         int resultado = num1 + num2;

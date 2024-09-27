@@ -13,10 +13,23 @@ public class Main {
         // ejercicio.ejercicio1();
 
         Operadores operadores = new Operadores();
+        positivonegativo positivonegativo = new positivonegativo();
+        excepciones expeciones = new excepciones();
+
         //operadores.aritmeticos();
         //operadores.asignacion();
         //operadores.relacionales();
-        operadores.logicos();
+        //operadores.logicos();
+
+        //positivonegativo.posneg();
+        //positivonegativo.noigual();
+        //positivonegativo.dividirentrecero();
+        positivonegativo.area();
+
+        //expeciones.control_expeciones();
+
+
+
 
 
     }
