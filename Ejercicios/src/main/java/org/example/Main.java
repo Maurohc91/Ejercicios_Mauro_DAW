@@ -15,6 +15,10 @@ public class Main {
         Operadores operadores = new Operadores();
         positivonegativo positivonegativo = new positivonegativo();
         excepciones expeciones = new excepciones();
+        Votacion votacion = new Votacion();
+        Multiplica Multiplica = new Multiplica();
+
+        Multiplica.Multiplica();
 
         //operadores.aritmeticos();
         //operadores.asignacion();
@@ -24,7 +28,12 @@ public class Main {
         //positivonegativo.posneg();
         //positivonegativo.noigual();
         //positivonegativo.dividirentrecero();
-        positivonegativo.area();
+        //positivonegativo.area();
+        //positivonegativo.MinimoDeTresNumeros();
+        //positivonegativo.IrAComprar();
+
+
+        //votacion.Votacion();
 
         //expeciones.control_expeciones();
 
